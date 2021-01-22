@@ -23,10 +23,6 @@ header {
     height: 100px;
     width: 100%;
     background-color: brown;
-    opacity: 0.8;
-    position: fixed;
-    top: 0;
-    z-index: 10;
 }
 
 .header-logo {
@@ -55,17 +51,6 @@ header {
     transition: all 0.5s;
 }
 
-.top-wrapper {
-    text-align: center;
-    padding-top :200px;
-    padding-bottom: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-    background-image: url(top.png);
-    background-size: auto;
-    background-position: center;
-}
-
 footer {
     background-color: brown;
     width: 100%;
@@ -79,56 +64,15 @@ footer {
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    padding: 20px 20px; 
-}
-
-.container h1 {
-    font-style :italic;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 80px;
-}
-
-.container h2 {
-    line-height: 50px;
-}
-
-.image-logo {
-    padding: 50px;
-}
-
-.website-description {
-    padding-top: 50px;
-}
-
-.container span {
-    color: red;
 }
 
 .footer-right h8 {
     padding: 0 15px;
 }
 
-.fab {
-    font-size: 50px; 
-    color: blue;
- }
- 
- .twitter {
-     margin-left: 70px;
- }
- 
- .footer-right li {
-     padding-top: 20px;
-     padding-right: 10px;
- }
-
- .footer-left {
-    float: left;
-    font-size: 30px;
-    padding: 25px;
-    color: black;
+.container {
+    width: 100%;
+    text-align: center;
 }
 
 .containers {
